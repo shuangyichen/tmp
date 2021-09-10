@@ -1,0 +1,48 @@
+2021-09-09 22:07:20,860 INFO    MainThread:33993 [internal.py:wandb_internal():88] W&B internal server running at pid: 33993, started at: 2021-09-09 22:07:20.859734
+2021-09-09 22:07:20,864 DEBUG   HandlerThread:33993 [handler.py:handle_request():121] handle_request: check_version
+2021-09-09 22:07:20,864 INFO    WriterThread:33993 [datastore.py:open_for_write():77] open: /home/ubuntu/test0909/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210909_220719-36au8c25/run-36au8c25.wandb
+2021-09-09 22:07:20,868 DEBUG   SenderThread:33993 [sender.py:send():176] send: header
+2021-09-09 22:07:20,868 DEBUG   SenderThread:33993 [sender.py:send_request():186] send_request: check_version
+2021-09-09 22:07:20,993 DEBUG   SenderThread:33993 [sender.py:send():176] send: run
+2021-09-09 22:07:21,123 DEBUG   HandlerThread:33993 [handler.py:handle_request():121] handle_request: run_start
+2021-09-09 22:07:21,128 INFO    SenderThread:33993 [dir_watcher.py:__init__():168] watching files in: /home/ubuntu/test0909/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210909_220719-36au8c25/files
+2021-09-09 22:07:21,128 INFO    SenderThread:33993 [sender.py:_start_run_threads():696] run started: 36au8c25 with start time 1631239639
+2021-09-09 22:07:21,128 DEBUG   SenderThread:33993 [sender.py:send():176] send: summary
+2021-09-09 22:07:21,129 INFO    SenderThread:33993 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-09-09 22:07:22,133 INFO    Thread-8  :33993 [dir_watcher.py:_on_file_created():216] file/dir created: /home/ubuntu/test0909/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210909_220719-36au8c25/files/wandb-summary.json
+2021-09-09 22:07:22,633 DEBUG   HandlerThread:33993 [meta.py:__init__():39] meta init
+2021-09-09 22:07:22,633 DEBUG   HandlerThread:33993 [meta.py:__init__():53] meta init done
+2021-09-09 22:07:22,633 DEBUG   HandlerThread:33993 [meta.py:probe():210] probe
+2021-09-09 22:07:22,635 DEBUG   HandlerThread:33993 [meta.py:_setup_git():200] setup git
+2021-09-09 22:07:22,662 DEBUG   HandlerThread:33993 [meta.py:_setup_git():207] setup git done
+2021-09-09 22:07:22,662 DEBUG   HandlerThread:33993 [meta.py:_save_pip():57] save pip
+2021-09-09 22:07:22,663 DEBUG   HandlerThread:33993 [meta.py:_save_pip():71] save pip done
+2021-09-09 22:07:22,663 DEBUG   HandlerThread:33993 [meta.py:probe():252] probe done
+2021-09-09 22:07:22,668 DEBUG   SenderThread:33993 [sender.py:send():176] send: files
+2021-09-09 22:07:22,668 INFO    SenderThread:33993 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-09-09 22:07:22,679 DEBUG   HandlerThread:33993 [handler.py:handle_request():121] handle_request: stop_status
+2021-09-09 22:07:22,680 DEBUG   SenderThread:33993 [sender.py:send_request():186] send_request: stop_status
+2021-09-09 22:07:23,024 INFO    Thread-11 :33993 [upload_job.py:push():133] Uploaded file /tmp/tmp9kzeqfriwandb/2hm10wii-wandb-metadata.json
+2021-09-09 22:07:23,133 INFO    Thread-8  :33993 [dir_watcher.py:_on_file_created():216] file/dir created: /home/ubuntu/test0909/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210909_220719-36au8c25/files/wandb-metadata.json
+2021-09-09 22:07:23,134 INFO    Thread-8  :33993 [dir_watcher.py:_on_file_created():216] file/dir created: /home/ubuntu/test0909/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210909_220719-36au8c25/files/requirements.txt
+2021-09-09 22:07:23,134 INFO    Thread-8  :33993 [dir_watcher.py:_on_file_created():216] file/dir created: /home/ubuntu/test0909/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210909_220719-36au8c25/files/output.log
+2021-09-09 22:07:48,423 DEBUG   HandlerThread:33993 [handler.py:handle_request():121] handle_request: stop_status
+2021-09-09 22:07:48,424 DEBUG   SenderThread:33993 [sender.py:send_request():186] send_request: stop_status
+2021-09-09 22:07:50,745 DEBUG   SenderThread:33993 [sender.py:send():176] send: stats
+2021-09-09 22:08:06,232 DEBUG   HandlerThread:33993 [handler.py:handle_request():121] handle_request: stop_status
+2021-09-09 22:08:06,233 DEBUG   SenderThread:33993 [sender.py:send_request():186] send_request: stop_status
+2021-09-09 22:08:20,820 DEBUG   SenderThread:33993 [sender.py:send():176] send: stats
+2021-09-09 22:08:21,315 DEBUG   HandlerThread:33993 [handler.py:handle_request():121] handle_request: stop_status
+2021-09-09 22:08:21,315 DEBUG   SenderThread:33993 [sender.py:send_request():186] send_request: stop_status
+2021-09-09 22:08:37,487 DEBUG   HandlerThread:33993 [handler.py:handle_request():121] handle_request: stop_status
+2021-09-09 22:08:37,488 DEBUG   SenderThread:33993 [sender.py:send_request():186] send_request: stop_status
+2021-09-09 22:08:50,906 DEBUG   SenderThread:33993 [sender.py:send():176] send: stats
+2021-09-09 22:08:52,561 DEBUG   HandlerThread:33993 [handler.py:handle_request():121] handle_request: stop_status
+2021-09-09 22:08:52,561 DEBUG   SenderThread:33993 [sender.py:send_request():186] send_request: stop_status
+2021-09-09 22:08:52,934 DEBUG   SenderThread:33993 [sender.py:send():176] send: history
+2021-09-09 22:08:52,934 DEBUG   SenderThread:33993 [sender.py:send():176] send: summary
+2021-09-09 22:08:52,937 INFO    SenderThread:33993 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-09-09 22:08:52,937 DEBUG   SenderThread:33993 [sender.py:send():176] send: history
+2021-09-09 22:08:52,938 DEBUG   SenderThread:33993 [sender.py:send():176] send: summary
+2021-09-09 22:08:52,938 INFO    SenderThread:33993 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-09-09 22:08:53,176 INFO    Thread-8  :33993 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/ubuntu/test0909/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210909_220719-36au8c25/files/wandb-summary.json
