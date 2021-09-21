@@ -111,6 +111,7 @@ class FedAVGAggregator(object):
             return
 
         if round_idx % self.args.frequency_of_the_test == 0 or round_idx == self.args.comm_round - 1:
+            '''
             logging.info("################test_on_server_for_all_clients : {}".format(round_idx))
             train_num_samples = []
             train_tot_corrects = []
@@ -124,7 +125,7 @@ class FedAVGAggregator(object):
                 train_losses.append(copy.deepcopy(train_loss))
 
                 """
-                Note: CI environment is CPU-based computing. 
+                Note: CI environment is CPU-based computing.
                 The training speed for RNN training is to slow in this setting, so we only test a client to make sure there is no programming error.
                 """
                 if self.args.ci == 1:
@@ -137,7 +138,7 @@ class FedAVGAggregator(object):
             wandb.log({"Train/Loss": train_loss, "round": round_idx})
             stats = {'training_acc': train_acc, 'training_loss': train_loss}
             logging.info(stats)
-
+            '''
             # test data
             test_num_samples = []
             test_tot_corrects = []
@@ -147,7 +148,7 @@ class FedAVGAggregator(object):
                 metrics = self.trainer.test(self.test_global, self.device, self.args)
             else:
                 metrics = self.trainer.test(self.val_global, self.device, self.args)
-                
+
             test_tot_correct, test_num_sample, test_loss = metrics['test_correct'], metrics['test_total'], metrics[
                 'test_loss']
             test_tot_corrects.append(copy.deepcopy(test_tot_correct))

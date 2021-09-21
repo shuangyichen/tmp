@@ -1,0 +1,169 @@
+2021-09-21 10:47:33,153 INFO    MainThread:18412 [internal.py:wandb_internal():88] W&B internal server running at pid: 18412, started at: 2021-09-21 10:47:33.152782
+2021-09-21 10:47:33,157 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: check_version
+2021-09-21 10:47:33,157 INFO    WriterThread:18412 [datastore.py:open_for_write():77] open: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/run-83b49zdm.wandb
+2021-09-21 10:47:33,160 DEBUG   SenderThread:18412 [sender.py:send():176] send: header
+2021-09-21 10:47:33,161 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: check_version
+2021-09-21 10:47:33,209 DEBUG   SenderThread:18412 [sender.py:send():176] send: run
+2021-09-21 10:47:33,359 INFO    SenderThread:18412 [dir_watcher.py:__init__():168] watching files in: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files
+2021-09-21 10:47:33,359 INFO    SenderThread:18412 [sender.py:_start_run_threads():696] run started: 83b49zdm with start time 1632235652
+2021-09-21 10:47:33,359 DEBUG   SenderThread:18412 [sender.py:send():176] send: summary
+2021-09-21 10:47:33,359 INFO    SenderThread:18412 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-09-21 10:47:33,361 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: run_start
+2021-09-21 10:47:34,361 INFO    Thread-8  :18412 [dir_watcher.py:_on_file_created():216] file/dir created: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/wandb-summary.json
+2021-09-21 10:47:34,907 DEBUG   HandlerThread:18412 [meta.py:__init__():39] meta init
+2021-09-21 10:47:34,907 DEBUG   HandlerThread:18412 [meta.py:__init__():53] meta init done
+2021-09-21 10:47:34,907 DEBUG   HandlerThread:18412 [meta.py:probe():210] probe
+2021-09-21 10:47:34,909 DEBUG   HandlerThread:18412 [meta.py:_setup_git():200] setup git
+2021-09-21 10:47:34,937 DEBUG   HandlerThread:18412 [meta.py:_setup_git():207] setup git done
+2021-09-21 10:47:34,937 DEBUG   HandlerThread:18412 [meta.py:_save_pip():57] save pip
+2021-09-21 10:47:34,938 DEBUG   HandlerThread:18412 [meta.py:_save_pip():71] save pip done
+2021-09-21 10:47:34,938 DEBUG   HandlerThread:18412 [meta.py:probe():252] probe done
+2021-09-21 10:47:34,943 DEBUG   SenderThread:18412 [sender.py:send():176] send: files
+2021-09-21 10:47:34,943 INFO    SenderThread:18412 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-09-21 10:47:34,951 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: stop_status
+2021-09-21 10:47:34,952 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: stop_status
+2021-09-21 10:47:35,281 INFO    Thread-11 :18412 [upload_job.py:push():133] Uploaded file /tmp/tmpnvx2vn0ywandb/1oeuemp0-wandb-metadata.json
+2021-09-21 10:47:35,358 INFO    Thread-8  :18412 [dir_watcher.py:_on_file_created():216] file/dir created: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/requirements.txt
+2021-09-21 10:47:35,359 INFO    Thread-8  :18412 [dir_watcher.py:_on_file_created():216] file/dir created: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/output.log
+2021-09-21 10:47:35,359 INFO    Thread-8  :18412 [dir_watcher.py:_on_file_created():216] file/dir created: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/wandb-metadata.json
+2021-09-21 10:47:36,991 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:36,992 DEBUG   SenderThread:18412 [sender.py:send():176] send: telemetry
+2021-09-21 10:47:36,992 DEBUG   SenderThread:18412 [sender.py:send():176] send: exit
+2021-09-21 10:47:36,992 INFO    SenderThread:18412 [sender.py:send_exit():281] handling exit code: 1
+2021-09-21 10:47:36,992 INFO    SenderThread:18412 [sender.py:send_exit():289] send defer
+2021-09-21 10:47:36,993 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:36,994 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: defer
+2021-09-21 10:47:36,994 INFO    HandlerThread:18412 [handler.py:handle_request_defer():138] handle defer: 0
+2021-09-21 10:47:36,995 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: defer
+2021-09-21 10:47:36,995 INFO    SenderThread:18412 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-09-21 10:47:36,995 INFO    SenderThread:18412 [sender.py:send_request_defer():336] send defer: 1
+2021-09-21 10:47:36,995 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: defer
+2021-09-21 10:47:36,996 INFO    HandlerThread:18412 [handler.py:handle_request_defer():138] handle defer: 1
+2021-09-21 10:47:37,027 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: defer
+2021-09-21 10:47:37,027 INFO    SenderThread:18412 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-09-21 10:47:37,028 INFO    SenderThread:18412 [sender.py:send_request_defer():336] send defer: 2
+2021-09-21 10:47:37,028 DEBUG   SenderThread:18412 [sender.py:send():176] send: stats
+2021-09-21 10:47:37,029 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: defer
+2021-09-21 10:47:37,029 INFO    HandlerThread:18412 [handler.py:handle_request_defer():138] handle defer: 2
+2021-09-21 10:47:37,029 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: defer
+2021-09-21 10:47:37,029 INFO    SenderThread:18412 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-09-21 10:47:37,030 INFO    SenderThread:18412 [sender.py:send_request_defer():336] send defer: 3
+2021-09-21 10:47:37,030 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: defer
+2021-09-21 10:47:37,030 INFO    HandlerThread:18412 [handler.py:handle_request_defer():138] handle defer: 3
+2021-09-21 10:47:37,031 DEBUG   SenderThread:18412 [sender.py:send():176] send: summary
+2021-09-21 10:47:37,031 INFO    SenderThread:18412 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-09-21 10:47:37,032 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: defer
+2021-09-21 10:47:37,032 INFO    SenderThread:18412 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-09-21 10:47:37,032 INFO    SenderThread:18412 [sender.py:send_request_defer():336] send defer: 4
+2021-09-21 10:47:37,032 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: defer
+2021-09-21 10:47:37,033 INFO    HandlerThread:18412 [handler.py:handle_request_defer():138] handle defer: 4
+2021-09-21 10:47:37,033 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: defer
+2021-09-21 10:47:37,033 INFO    SenderThread:18412 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-09-21 10:47:37,096 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:37,123 INFO    SenderThread:18412 [sender.py:send_request_defer():336] send defer: 5
+2021-09-21 10:47:37,124 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:37,124 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: defer
+2021-09-21 10:47:37,124 INFO    HandlerThread:18412 [handler.py:handle_request_defer():138] handle defer: 5
+2021-09-21 10:47:37,125 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: defer
+2021-09-21 10:47:37,125 INFO    SenderThread:18412 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-09-21 10:47:37,125 INFO    SenderThread:18412 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-09-21 10:47:37,226 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:37,359 INFO    Thread-8  :18412 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/output.log
+2021-09-21 10:47:37,360 INFO    SenderThread:18412 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/config.yaml
+2021-09-21 10:47:37,360 INFO    SenderThread:18412 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/wandb-summary.json
+2021-09-21 10:47:37,361 INFO    SenderThread:18412 [dir_watcher.py:finish():312] scan: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files
+2021-09-21 10:47:37,361 INFO    SenderThread:18412 [dir_watcher.py:finish():318] scan save: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/output.log output.log
+2021-09-21 10:47:37,361 INFO    SenderThread:18412 [dir_watcher.py:finish():318] scan save: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/requirements.txt requirements.txt
+2021-09-21 10:47:37,362 INFO    SenderThread:18412 [dir_watcher.py:finish():318] scan save: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/config.yaml config.yaml
+2021-09-21 10:47:37,369 INFO    SenderThread:18412 [dir_watcher.py:finish():318] scan save: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/wandb-summary.json wandb-summary.json
+2021-09-21 10:47:37,375 INFO    SenderThread:18412 [dir_watcher.py:finish():318] scan save: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/wandb-metadata.json wandb-metadata.json
+2021-09-21 10:47:37,375 INFO    SenderThread:18412 [sender.py:send_request_defer():336] send defer: 6
+2021-09-21 10:47:37,376 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:37,377 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: defer
+2021-09-21 10:47:37,377 INFO    HandlerThread:18412 [handler.py:handle_request_defer():138] handle defer: 6
+2021-09-21 10:47:37,389 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: defer
+2021-09-21 10:47:37,389 INFO    SenderThread:18412 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-09-21 10:47:37,389 INFO    SenderThread:18412 [file_pusher.py:finish():176] shutting down file pusher
+2021-09-21 10:47:37,389 INFO    SenderThread:18412 [sender.py:send_request_defer():336] send defer: 7
+2021-09-21 10:47:37,391 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: defer
+2021-09-21 10:47:37,391 INFO    HandlerThread:18412 [handler.py:handle_request_defer():138] handle defer: 7
+2021-09-21 10:47:37,391 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: defer
+2021-09-21 10:47:37,391 INFO    SenderThread:18412 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-09-21 10:47:37,479 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:37,504 INFO    SenderThread:18412 [sender.py:send_request_defer():336] send defer: 8
+2021-09-21 10:47:37,504 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:37,505 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: defer
+2021-09-21 10:47:37,505 INFO    HandlerThread:18412 [handler.py:handle_request_defer():138] handle defer: 8
+2021-09-21 10:47:37,506 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: defer
+2021-09-21 10:47:37,506 INFO    SenderThread:18412 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-09-21 10:47:37,506 INFO    SenderThread:18412 [sender.py:send_request_defer():336] send defer: 9
+2021-09-21 10:47:37,507 DEBUG   SenderThread:18412 [sender.py:send():176] send: final
+2021-09-21 10:47:37,508 DEBUG   SenderThread:18412 [sender.py:send():176] send: footer
+2021-09-21 10:47:37,508 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: defer
+2021-09-21 10:47:37,508 INFO    HandlerThread:18412 [handler.py:handle_request_defer():138] handle defer: 9
+2021-09-21 10:47:37,508 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: defer
+2021-09-21 10:47:37,509 INFO    SenderThread:18412 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-09-21 10:47:37,606 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:37,607 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:37,709 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:37,709 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:37,811 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:37,812 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:37,914 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:37,914 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:38,016 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:38,016 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:38,118 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:38,118 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:38,220 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:38,220 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:38,322 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:38,322 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:38,424 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:38,425 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:38,526 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:38,527 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:38,629 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:38,629 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:38,731 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:38,731 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:38,833 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:38,834 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:38,936 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:38,936 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:39,038 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:39,038 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:39,141 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:39,141 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:39,243 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:39,243 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:39,345 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:39,346 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:39,448 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:39,449 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:39,551 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:39,551 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:39,653 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:39,654 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:39,686 INFO    Thread-12 :18412 [upload_job.py:push():133] Uploaded file /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/output.log
+2021-09-21 10:47:39,702 INFO    Thread-13 :18412 [upload_job.py:push():133] Uploaded file /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/requirements.txt
+2021-09-21 10:47:39,707 INFO    Thread-14 :18412 [upload_job.py:push():133] Uploaded file /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/config.yaml
+2021-09-21 10:47:39,756 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:39,756 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:39,775 INFO    Thread-15 :18412 [upload_job.py:push():133] Uploaded file /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/files/wandb-summary.json
+2021-09-21 10:47:39,858 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:39,859 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:39,961 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:39,961 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:40,063 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: poll_exit
+2021-09-21 10:47:40,064 DEBUG   SenderThread:18412 [sender.py:send_request():186] send_request: poll_exit
+2021-09-21 10:47:40,064 INFO    SenderThread:18412 [file_pusher.py:join():181] waiting for file pusher
+2021-09-21 10:47:40,066 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: get_summary
+2021-09-21 10:47:40,067 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: sampled_history
+2021-09-21 10:47:40,068 DEBUG   HandlerThread:18412 [handler.py:handle_request():121] handle_request: shutdown
+2021-09-21 10:47:40,069 INFO    HandlerThread:18412 [handler.py:finish():632] shutting down handler
+2021-09-21 10:47:40,508 INFO    WriterThread:18412 [datastore.py:close():258] close: /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_104732-83b49zdm/run-83b49zdm.wandb
+2021-09-21 10:47:41,065 INFO    SenderThread:18412 [sender.py:finish():925] shutting down sender
+2021-09-21 10:47:41,065 INFO    SenderThread:18412 [file_pusher.py:finish():176] shutting down file pusher
+2021-09-21 10:47:41,065 INFO    SenderThread:18412 [file_pusher.py:join():181] waiting for file pusher
+2021-09-21 10:47:41,067 INFO    MainThread:18412 [internal.py:handle_exit():78] Internal process exited

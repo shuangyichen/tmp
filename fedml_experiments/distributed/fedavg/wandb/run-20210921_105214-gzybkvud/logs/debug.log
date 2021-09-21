@@ -1,0 +1,23 @@
+2021-09-21 10:52:14,967 INFO    MainThread:4948 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-21 10:52:14,968 INFO    MainThread:4948 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-21 10:52:14,968 INFO    MainThread:4948 [wandb_init.py:_log_setup():336] Logging user logs to /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_105214-gzybkvud/logs/debug.log
+2021-09-21 10:52:14,968 INFO    MainThread:4948 [wandb_init.py:_log_setup():337] Logging internal logs to /home/ubuntu/tmp/FedML/fedml_experiments/distributed/fedavg/wandb/run-20210921_105214-gzybkvud/logs/debug-internal.log
+2021-09-21 10:52:14,968 INFO    MainThread:4948 [wandb_init.py:init():369] calling init triggers
+2021-09-21 10:52:14,969 INFO    MainThread:4948 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'model': 'cnn', 'dataset': 'mnist', 'data_dir': './../../../data/mnist', 'partition_method': 'hetero', 'partition_alpha': 0.5, 'client_num_in_total': 2, 'client_num_per_round': 2, 'batch_size': 256, 'client_optimizer': 'sgd', 'backend': 'MPI', 'lr': 0.1, 'wd': 0.0001, 'epochs': 1, 'comm_round': 200, 'is_mobile': 1, 'frequency_of_the_test': 1, 'gpu_server_num': 1, 'gpu_num_per_server': 4, 'gpu_mapping_file': None, 'gpu_mapping_key': None, 'grpc_ipconfig_path': 'grpc_ipconfig.csv', 'ci': 0}
+2021-09-21 10:52:14,969 INFO    MainThread:4948 [wandb_init.py:init():418] starting backend
+2021-09-21 10:52:14,969 INFO    MainThread:4948 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-09-21 10:52:15,056 INFO    MainThread:4948 [backend.py:ensure_launched():132] starting backend process...
+2021-09-21 10:52:15,094 INFO    MainThread:4948 [backend.py:ensure_launched():136] started backend process with pid: 4994
+2021-09-21 10:52:15,097 INFO    MainThread:4948 [wandb_init.py:init():423] backend started and connected
+2021-09-21 10:52:15,100 INFO    MainThread:4948 [wandb_init.py:init():465] updated telemetry
+2021-09-21 10:52:15,101 INFO    MainThread:4948 [wandb_init.py:init():484] communicating current version
+2021-09-21 10:52:16,108 INFO    MainThread:4948 [wandb_init.py:init():489] got version response upgrade_message: "wandb version 0.12.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-09-21 10:52:16,108 INFO    MainThread:4948 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-09-21 10:52:16,663 INFO    MainThread:4948 [wandb_init.py:init():522] starting run threads in backend
+2021-09-21 10:52:21,701 INFO    MainThread:4948 [wandb_run.py:_console_start():1565] atexit reg
+2021-09-21 10:52:21,702 INFO    MainThread:4948 [wandb_run.py:_redirect():1412] redirect: SettingsConsole.REDIRECT
+2021-09-21 10:52:21,703 INFO    MainThread:4948 [wandb_run.py:_redirect():1417] Redirecting console.
+2021-09-21 10:52:21,707 INFO    MainThread:4948 [wandb_run.py:_redirect():1479] Redirects installed.
+2021-09-21 10:52:21,707 INFO    MainThread:4948 [wandb_init.py:init():546] run started, returning control to user process

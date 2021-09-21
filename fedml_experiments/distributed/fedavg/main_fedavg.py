@@ -259,6 +259,8 @@ def create_model(args, model_name, output_dim):
         model = mobilenet(class_num=output_dim)
     elif model_name == "cnn_test":
         model = CNN_Test(False)
+    elif model_name == "cnn":
+        model = CNN_DropOut(True)
     # TODO
     elif model_name == 'mobilenet_v3':
         '''model_mode \in {LARGE: 5.15M, SMALL: 2.94M}'''
